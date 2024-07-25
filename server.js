@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json())
 app.use(cors({
-    "origin" : "*"
+    "origin" : "https://real-estate-fornt-end.vercel.app"
 }))
 
 const port = process.env.PORT || 4600;
